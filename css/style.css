@@ -31,7 +31,7 @@
     overflow-y:auto;
 
     /*DEBUG*/
-    height:200px;
+    
     background-color: aqua;
 }
 
@@ -98,6 +98,22 @@
     color:white;
 }
 
+.album h2{
+    color:white;
+    font-size:2rem;
+}
+
+.album-recenti{
+    display:flex;
+}
+
+.album-recenti .card{
+    width:15%;
+    height:100px;
+    background-color: blueviolet;
+    border:1px solid black;
+}
+
 /*Sezione footer*/
 
 footer{
@@ -108,10 +124,9 @@ footer{
 
 /*Sezione Responsive*/
 
-/*sezione album*/
-
 @media screen and (max-width:878px){
     
+    /*sezione album*/
 
     .album ul{   
         width:100%;
@@ -125,6 +140,20 @@ footer{
     .album li{
         width:20%;
         text-align:center;
+    }
+
+    .album-recenti{
+        flex-wrap:wrap;
+        justify-content:flex-start;
+        gap:30px 10px;
+        padding-left:10px;
+    }
+
+    .album-recenti .card{
+        margin:0;
+        width:23%;
+        background-color: rgb(22, 1, 43);
+        border:1px solid black;
     }
 }
 
@@ -141,5 +170,16 @@ footer{
     .album li{
         width:calc(100% / 3);
         text-align:center;
+    }
+
+    .album-recenti{
+        padding:0 5px;
+    }
+
+    .album-recenti .card{
+        margin:0;
+        width:48%;
+        background-color: rgb(104, 103, 105);
+        border:1px solid black;
     }
 }
