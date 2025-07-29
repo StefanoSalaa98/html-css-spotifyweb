@@ -12,7 +12,7 @@
 }
 
 .col-sx{
-    width:250px;
+    min-width:250px;
     min-height:100%;
 
     /*DEBUG*/
@@ -42,6 +42,7 @@
 .album{
     min-width:100%;
     flex-grow: 1;
+    overflow-y:auto;
 
     /*DEBUG*/
     background-color: yellow;
