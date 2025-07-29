@@ -88,6 +88,16 @@
     white-space:nowrap;
 }
 
+.album .sottolinea{
+    height:3px;
+    width:30px;
+    background-color: lightgreen;
+}
+
+.album li:hover{
+    color:white;
+}
+
 /*Sezione footer*/
 
 footer{
