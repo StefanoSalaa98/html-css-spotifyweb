@@ -1,0 +1,54 @@
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    height:calc(100vh - 100px);
+
+    /*DEBUG*/
+    background-color: lightgreen;
+}
+
+.col-sx{
+    width:250px;
+    min-height:100%;
+
+    /*DEBUG*/
+    
+    background-color: blue;
+}
+
+.col-dx{
+    flex-grow: 1;
+    min-height:100%;
+    display:flex;
+    flex-direction: column;
+
+    /*DEBUG*/
+    height:200px;
+    background-color: aqua;
+}
+
+.upgrade{
+    min-width:100%;
+    height:50px;
+
+    /*DEBUG*/
+    background-color: blueviolet;
+}
+
+.album{
+    min-width:100%;
+    flex-grow: 1;
+
+    /*DEBUG*/
+    background-color: yellow;
+}
+
+footer{
+
+    height:100px;
+    background-color: #282828;
+}
