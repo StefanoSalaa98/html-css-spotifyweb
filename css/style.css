@@ -206,13 +206,50 @@ footer{
     color:grey;
 }
 
-
 .footer-cx{
-    
     width:40%;
-    /*DEBUG*/
+    text-align:center;
     height:80%;
-    background-color: aqua;
+}
+
+.footer-cx .display{
+    display:flex;
+    width:40%;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.display i{
+    color:white;
+}
+
+.footer-cx .barra{
+    height:5px;
+    width:80%;
+    background-color: grey;
+}
+
+.barra .tempo{
+    margin: 0;
+    height:100%;
+    width:20%;
+    background-color: lightgrey;
+}
+
+.big{
+    font-size:2.5rem;
+}
+
+.small{
+    font-size:1.3rem;
+}
+
+.footer-cx .timeline{
+    display:flex;
+    align-items:center;
+    width:90%;
+    color:white;
 }
 
 .footer-dx{
