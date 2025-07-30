@@ -209,19 +209,19 @@ footer{
 .footer-cx{
     width:40%;
     text-align:center;
-    height:80%;
 }
 
-.footer-cx .display{
+footer .display{
     display:flex;
     width:40%;
-    justify-content:center;
     align-items:center;
-    margin-top:5px;
+}
+
+footer .spazio{
     margin-bottom:13px;
 }
 
-.display i{
+footer i{
     color:white;
 }
 
@@ -233,14 +233,14 @@ footer{
     font-size:1.3rem;
 }
 
-.footer-cx .timeline{
+footer .timeline{
     display:flex;
     align-items:center;
     width:90%;
     color:white;
 }
 
-.footer-cx .barra{
+footer .barra{
     display:flex;
     justify-content:flex-star;
     height:5px;
@@ -255,7 +255,7 @@ footer{
     background-color: lightgrey;
 }
 
-.timeline .circle{
+.barra .circle{
     display:none;
     position: relative;
     top:-4px;
@@ -276,13 +276,12 @@ footer{
 }
 
 .footer-dx{
+    
     margin:0;
     width:20%;
     display:flex;
     align-items:center;
-    /*DEBUG*/
-    height:60%;
-    background-color:rgb(255, 0, 200)
+    
 }
 
 /*Sezione Responsive*/
