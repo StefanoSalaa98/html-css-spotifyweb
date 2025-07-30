@@ -202,11 +202,9 @@ footer{
     .mostra-album{
         flex-wrap:wrap;
         justify-content:flex-start;
-        padding-left:10px;
     }
 
     .mostra-album .card{
-        margin:0;
         width:25%;
         padding:10px;
         background-color: rgb(22, 1, 43);
@@ -227,10 +225,6 @@ footer{
     .album li{
         width:calc(100% / 3);
         text-align:center;
-    }
-
-    .mostra-album{
-        padding:0 5px;
     }
 
     .mostra-album .card{
