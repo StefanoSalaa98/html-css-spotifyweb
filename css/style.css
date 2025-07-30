@@ -183,7 +183,7 @@ footer{
 
 .footer-sx, .footer-dx{
     margin:0;
-    width:15%;
+    width:20%;
     /*DEBUG*/
     height:60%;
     background-color:rgb(255, 0, 200)
@@ -191,7 +191,7 @@ footer{
 
 .footer-cx{
     
-    width:30%;
+    width:40%;
     /*DEBUG*/
     height:80%;
     background-color: aqua;
