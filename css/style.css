@@ -145,13 +145,14 @@ footer{
     .album-recenti{
         flex-wrap:wrap;
         justify-content:flex-start;
-        gap:30px 10px;
+        /*gap:30px 10px;*/
         padding-left:10px;
     }
 
     .album-recenti .card{
         margin:0;
-        width:23%;
+        width:25%;
+        padding:10px;
         background-color: rgb(22, 1, 43);
         border:1px solid black;
     }
@@ -177,9 +178,7 @@ footer{
     }
 
     .album-recenti .card{
-        margin:0;
-        width:48%;
+        width:50%;
         background-color: rgb(104, 103, 105);
-        border:1px solid black;
     }
 }
