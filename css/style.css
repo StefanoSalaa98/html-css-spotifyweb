@@ -15,7 +15,7 @@
 
 /*Sezione colonna sx*/
 .col-sx{
-    min-width:200px;
+    min-width:230px;
     min-height:100%;
 
     /*DEBUG*/
@@ -184,13 +184,13 @@ footer{
 
 .footer-sx{
     margin:0;
-    width:200px;
+    width:230px;
     display:flex;
     align-items:center;
 }
 
 .footer-sx img{
-    width:25%;
+    width:50px;
     margin-right: 0;
 }
 
@@ -206,6 +206,11 @@ footer{
     color:grey;
 }
 
+.item{
+    display:flex;
+    width:20%;
+}
+
 .footer-cx{
     width:40%;
     text-align:center;
@@ -213,8 +218,15 @@ footer{
 
 footer .display{
     display:flex;
-    width:40%;
     align-items:center;
+}
+
+footer .primo{
+    width:200px;
+}
+
+footer .secondo{
+    width:100px;
 }
 
 footer .spazio{
@@ -231,6 +243,10 @@ footer i{
 
 .small{
     font-size:1.3rem;
+}
+
+.footer-cx .timeline .barra{
+    margin:0 10px;
 }
 
 footer .timeline{
@@ -275,8 +291,7 @@ footer .barra{
     background-color: lightgreen;
 }
 
-.footer-dx{
-    
+.footer-dx{  
     margin:0;
     width:20%;
     display:flex;
@@ -315,6 +330,10 @@ footer .barra{
         background-color: rgb(22, 1, 43);
         border:1px solid black;
     }
+
+    
+
+    
 }
 
 @media screen and (max-width:639px){
@@ -336,4 +355,19 @@ footer .barra{
         width:50%;
         background-color: rgb(104, 103, 105);
     }
+
+    /*sezione footer*/
+
+    .footer-sx{
+        width:200px;
+    }
+
+    .footer-sx .testo {
+        margin-right: 0;
+    }
+
+    .item{
+        flex-direction:column;
+    }
+
 }
