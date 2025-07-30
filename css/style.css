@@ -176,7 +176,7 @@
 footer{
     display:flex;
     justify-content:space-between;
-
+    align-items:center;
     height:100px;
     background-color: #282828;
 }
@@ -184,12 +184,16 @@ footer{
 .footer-sx, .footer-dx{
     margin:0;
     width:15%;
+    /*DEBUG*/
+    height:60%;
     background-color:rgb(255, 0, 200)
 }
 
 .footer-cx{
     
     width:30%;
+    /*DEBUG*/
+    height:80%;
     background-color: aqua;
 }
 
