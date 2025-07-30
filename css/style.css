@@ -224,19 +224,6 @@ footer{
     color:white;
 }
 
-.footer-cx .barra{
-    height:5px;
-    width:80%;
-    background-color: grey;
-}
-
-.barra .tempo{
-    margin: 0;
-    height:100%;
-    width:20%;
-    background-color: lightgrey;
-}
-
 .big{
     font-size:2.5rem;
 }
@@ -250,6 +237,41 @@ footer{
     align-items:center;
     width:90%;
     color:white;
+}
+
+.footer-cx .barra{
+    display:flex;
+    justify-content:flex-star;
+    height:5px;
+    width:80%;
+    background-color: grey;
+}
+
+.barra .tempo{
+    margin: 0;
+    height:100%;
+    width:20%;
+    background-color: lightgrey;
+}
+
+.timeline .circle{
+    display:none;
+    position: relative;
+    top:-4px;
+    left:-4px;
+    margin: 0;
+    height:13px;
+    width:13px;
+    background-color: white;
+    border-radius:50%;
+}
+
+.barra:hover .circle{
+    display:block;
+}
+
+.barra:hover .tempo{
+    background-color: lightgreen;
 }
 
 .footer-dx{
