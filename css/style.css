@@ -174,9 +174,23 @@
 /*Sezione footer*/
 
 footer{
+    display:flex;
+    justify-content:space-between;
 
     height:100px;
     background-color: #282828;
+}
+
+.footer-sx, .footer-dx{
+    margin:0;
+    width:15%;
+    background-color:rgb(255, 0, 200)
+}
+
+.footer-cx{
+    
+    width:30%;
+    background-color: aqua;
 }
 
 /*Sezione Responsive*/
