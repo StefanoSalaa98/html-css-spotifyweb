@@ -23,6 +23,55 @@
     background-color: blue;
 }
 
+.logo{
+    width:65%;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+
+.container-sx{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    height:30px;
+    padding-left:10px;
+}
+
+.container-sx img{
+    margin:0;
+    height:80%;
+}
+
+.container-sx span{
+    margin-left:5px;
+}
+
+.bianco{
+    color:white;
+}
+
+.grigio{
+    color:grey;
+}
+
+.scura{
+    filter: brightness(60%);
+}
+
+.container-sx:hover img{
+    filter:none;
+}
+
+.container-sx:hover span{
+    color:white;
+}
+
+.bordo{
+    border-left: 3px solid lightgreen;
+    padding-left:7px;
+}
+
 /*Sezione colonna dx*/
 .col-dx{
     flex-grow: 1;
