@@ -15,35 +15,49 @@
 
 /*Sezione colonna sx*/
 .col-sx{
-    min-width:230px;
+    margin:0;
+    width:230px;
+    display:flex;
+    flex-direction:column;
+    flex-shrink:0;
     min-height:100%;
+    background-color: #000000;
+}
 
-    /*DEBUG*/
-    
-    background-color: blue;
+.container-sx, .container-scelte{
+    padding-left:10px;
+    margin:0;
 }
 
 .logo{
+    margin:0;
     width:65%;
     margin-top:10px;
-    margin-left:10px;
     margin-bottom:15px;
 }
 
-.container-sx{
+.navigazione{
+    margin:0;
+}
+
+.navigazione a{
     display:flex;
     justify-content:flex-start;
     align-items:center;
     height:30px;
-    padding-left:10px;
 }
 
-.container-sx img{
+a{
+    text-decoration: none;
+    color:grey;
+}
+
+.navigazione img{
     margin:0;
     height:80%;
 }
 
-.container-sx span{
+.navigazione span{
     margin-left:5px;
 }
 
@@ -71,6 +85,46 @@
     border-left: 3px solid lightgreen;
     padding-left:7px;
 }
+
+.seleziona{
+    margin:0;
+}
+
+.piu{
+    font-size:3rem;
+    padding:0 10px;
+    background-color:lightgrey;
+}
+
+.crea{
+    position: relative;
+    top: -7px;
+}
+
+.seleziona:hover .piu{
+    background-color: white;
+}
+
+.seleziona:hover .crea{
+    color:white;
+}
+
+.playlist-container{
+    margin:0;
+    padding-left: 0;
+    overflow-x: auto;
+}
+
+.playlist-container li{
+    list-style-type: none;
+    margin-top:7px;
+}
+
+.playlist-container li a:hover{
+    color:white;
+}
+
+
 
 /*Sezione colonna dx*/
 .col-dx{
@@ -154,9 +208,9 @@
     margin-bottom:5px;
 }
 
-.album h3{
+h3{
     color:white;
-    font-size:1.5rem;
+    font-size:1.3rem;
     margin:10px 0;
 }
 
