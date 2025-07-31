@@ -481,9 +481,7 @@ footer .barra{
         width:100%;
         flex-wrap:wrap;
         gap:20px 0;
-        justify-content:center;
-        /*DEBUG*/
-        background-color:red;        
+        justify-content:center;      
     }
 
     .album li{
@@ -510,12 +508,6 @@ footer .barra{
 @media screen and (max-width:639px){
     
 /*sezione album*/
-
-    .album ul{   
-        
-        /*DEBUG*/
-        background-color:purple;        
-    }
 
     .album li{
         width:calc(100% / 3);
