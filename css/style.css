@@ -213,7 +213,7 @@ a{
 /*Sezione album*/
 
 .album{
-    min-width:calc(100% - 10px);
+    /*min-width:calc(100% - 10px);*/
     flex-grow: 1;
     margin-top:70px;
     margin-left: 10px;
@@ -233,6 +233,7 @@ a{
 
 .album li{
     white-space:nowrap;
+    font-size:0.9rem;
 }
 
 .album .sottolinea{
@@ -271,7 +272,7 @@ h3{
 
 .mostra-album .card{
     margin: 0;
-    width: calc((100% / 6) - (15px / 6));
+    width: calc((100% / 6) - (15px / 5));
     text-align:center;
     margin-top:20px;
 }
@@ -481,7 +482,7 @@ footer .barra{
     /*sezione album*/
 
     .album ul{   
-        width:100%;
+        width:95%;
         flex-wrap:wrap;
         gap:20px 0;
         justify-content:center;      
@@ -495,17 +496,26 @@ footer .barra{
     .mostra-album{
         flex-wrap:wrap;
         justify-content:flex-start;
-        margin-right:0;
+        margin-right:10px;
         gap:10px
     }
 
     .mostra-album .card{
-        width:calc(25% - 10px);
+        width:calc(25% - (30px/4));
     }
 
     
 
     
+}
+
+@media screen and (max-width:750px){
+    
+/*sezione album*/
+
+    .album li{
+        width:25%;
+    }
 }
 
 @media screen and (max-width:639px){
@@ -514,7 +524,6 @@ footer .barra{
 
     .album li{
         width:calc(100% / 3);
-        text-align:center;
     }
 
     .mostra-album{
