@@ -36,6 +36,10 @@
     margin-bottom:15px;
 }
 
+.logo-small{
+    display:none;
+}
+
 .navigazione{
     margin:0;
 }
@@ -170,9 +174,6 @@ a{
     display:flex;
     flex-direction: column;
     overflow-y:auto;
-
-    /*DEBUG*/
-    
     background-color: #141922;
 }
 
@@ -542,5 +543,52 @@ footer .barra{
     .item{
         flex-direction:column;
     }
+
+}
+
+@media screen and (max-width:552px){
+
+    /*sezione colonna-sx*/
+    .col-sx .nascondi{
+        display:none;
+    }
+
+    .col-sx, .utente{
+        width:35px;
+    }
+
+    .col-sx{
+        align-items: center;
+    }
+
+    .container-sx{
+        padding-left:0;
+    }
+
+    .bordo{
+        border-left:none;
+        padding-left:0;
+    }
+
+    .utente img{
+        width:25px;
+    }
+
+    .utente .prima-imm{
+        margin-bottom:10px;
+    }
+
+    .logo-small{
+        display:block;
+        width:80%;
+        margin:5px auto;
+    }
+
+    /*sezione col-dx*/
+
+    .upgrade{
+        width:calc(100% - 35px);
+    }
+    
 
 }
