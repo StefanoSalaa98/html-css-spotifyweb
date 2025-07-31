@@ -320,10 +320,13 @@ h3{
 /*Sezione footer*/
 
 footer{
+    position:fixed;
+    z-index:100;
     display:flex;
     justify-content:space-between;
     align-items:center;
     height:100px;
+    width:100%;
     background-color: #282828;
 }
 
@@ -589,4 +592,11 @@ footer .barra{
         text-align:center;
     }
 
+}
+
+@media screen and (max-height:350px){
+
+    .utente{
+        display:none;
+    }
 }
