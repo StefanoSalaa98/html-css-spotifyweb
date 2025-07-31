@@ -122,7 +122,46 @@ a{
     color:white;
 }
 
+.utente{
+    position:fixed;
+    width:230px;
+    bottom:100px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right: 10px;
+    background-color:black;
+}
 
+.utente img{
+    width:5%;
+}
+
+.sfondo{
+    background-color:grey;
+    border-radius:50%;
+}
+
+.utente span:hover{
+    color:white;
+}
+
+.container-utente{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.container-utente img, .container-utente span, .container-utente h4{
+    margin:0;
+}
+
+.separatore{
+    height:1px;
+    width:100%;
+    background-color:grey;
+    margin-right:10px;
+    margin:5px 0;
+}
 
 /*Sezione colonna dx*/
 .col-dx{
