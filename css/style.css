@@ -114,7 +114,7 @@ a{
 }
 
 .playlist-container{
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .playlist-container li{
