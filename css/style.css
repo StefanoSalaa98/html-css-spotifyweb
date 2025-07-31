@@ -146,8 +146,6 @@ a{
 }
 
 .upgrade a{
-    
-    z-index:100;
     color:white;
     text-decoration: none;
     display:inline-block;
@@ -164,6 +162,12 @@ a{
 
     /*DEBUG*/
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.upgrade a:hover{
+    font-size:1.1rem;
+    padding: 6px 12px;
+    border-radius: 16px;
 }
 
 /*Sezione album*/
