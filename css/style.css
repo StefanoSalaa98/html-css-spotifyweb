@@ -246,6 +246,7 @@ a{
 
 .album li:hover{
     color:white;
+    cursor:pointer;
 }
 
 .album h2{
@@ -314,6 +315,7 @@ h3{
 
 .card:hover img{
     filter: brightness(40%);
+    cursor:pointer;
 }
 
 .cerchio{
