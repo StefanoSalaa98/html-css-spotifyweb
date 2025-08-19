@@ -115,6 +115,7 @@ a{
 
 .playlist-container{
     overflow-y: auto;
+    scrollbar-color: #9798A0 #2D3038;
 }
 
 .playlist-container li{
@@ -174,6 +175,7 @@ a{
     display:flex;
     flex-direction: column;
     overflow-y:auto;
+    scrollbar-color: #9798A0 #2D3038;
     background-color: #141922;
 }
 
@@ -400,21 +402,8 @@ footer i{
     font-size:2.5rem;
 }
 
-.shadow{
-    display:none;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    font-size:3rem;
-}
-
-.play:hover .big{
-    color:#282828;
-}
-
-.play:hover .shadow{
-    display:block;
+.play:hover{
+    transform: scale(1.3);
 }
 
 .small{
